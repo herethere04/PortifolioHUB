@@ -1,0 +1,7 @@
+a = str(input('digite uma frase : ')).strip().lower()
+b = a.count('a')
+print(b)
+c = a.find('a')
+print(c)
+d = a.rfind('a')
+print(d)
